@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #ddd;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header p {
+    color: slategray;
+    margin-top: 5px;
+}
+
+nav {
+    background: #111;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: #AFEEEE;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 4px;
+    font-size: 1.05rem;
+}
+
+nav a:hover {
+    background: #6495ED;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+section {
+    min-height: auto;
+    padding: 40px 60px;
+}
+
+section h2 {
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid;
+}
+
+section p, section td, section th {
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+#about {
+    background: #1a1a1a;
+    color: #f0c27a;
+}
+
+#about h2 {
+    color: #f5a623;
+    border-color: #e67e22;
+}
+
+#skills {
+    background: #0d1f1a;
+    color: #a8e6cf;
+}
+
+#skills h2 {
+    color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+#projects {
+    background: #0d1a26;
+    color: #a8d8ea;
+}
+
+#projects h2 {
+    color: #3498db;
+    border-color: #3498db;
+}
+
+#education {
+    background: #1a0d26;
+    color: #d5b8ff;
+}
+
+#education h2 {
+    color: #9b59b6;
+    border-color: #9b59b6;
+}
+
+#contact {
+    background: #1f1a0d;
+    color: #f5d89a;
+}
+
+#contact h2 {
+    color: #f39c12;
+    border-color: #f39c12;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list span {
+    background: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background: #2c2c2c;
+    color: #d5b8ff;
+}
+
+footer {
+    background: #111;
+    color: #777;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0;
+}
+
+.section-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border: 2px solid #333;
+}
